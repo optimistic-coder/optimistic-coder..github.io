@@ -64,3 +64,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+// JavaScript to toggle the mobile menu
+document.querySelector('.toggle-menu').addEventListener('click', function() {
+    this.classList.toggle('open');
+    document.querySelector('.nav-links').classList.toggle('active');
+});
