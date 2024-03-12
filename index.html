@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/logo.png">
+
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <div class="container">
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">
+                    <img height="30px" src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/logo.png"/>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#companies">Employers</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="underline"></div> <!-- Added underline element for animation -->
+        </div>
+    </nav>
+    
+    
+    <section id="about" class="section" data-aos="fade-up">
+        <div class="content">
+            <div class="about-info">
+                <img src="https://avatars.githubusercontent.com/u/41050518?v=4" alt="Your Image">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        As a Software Engineer at Nice  interactive solutions, I craft dynamic web and mobile applications using JavaScript, React Native, Node.js, and Flutter. I have delivered multiple projects for clients across various domains, such as e-commerce, education, and health care, ensuring high performance, usability, and scalability.
+                        <br><br>
+                        With the help of my team, I have improved the user retention rate by 25%, reduced the loading time by 40%, and increased the revenue by 15% for some of the projects. I am adept at working with React and Node, as well as Redux.js and unit testing frameworks. I have also gained experience in working as a contractor for Birlasoft and another company, where I enhanced my skills in front-end development and agile methodologies. I hold a Bachelor's degree in Computer Engineering from Savitribai Phule Pune University, and I am passionate about learning new technologies and solving complex problems.
+                    </p>
+                </div>
+            </div>
+          
+        </div>
+    </section>
+    
+    
+    <section id="services" class="section">
+        <center><h2 style="margin-bottom: 40px;">Services</h2></center>
+        <div class="content">
+            
+            <div class="service" id="service1">
+                <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/mobile.jpg" alt="Service 1">
+                <div class="service-info">
+                    <h3>Creating Android and iOS Apps</h3>
+                    <p>We specialize in developing high-quality Android and iOS applications tailored to your specific requirements. Our team utilizes the latest technologies and best practices to deliver robust, user-friendly mobile solutions.</p>
+                </div>
+            </div>
+            
+            <div class="service" id="service2">
+                <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/Reactjs.jpg" alt="Service 2">
+                <div class="service-info">
+                    <h3>Building React.js Apps</h3>
+                    <p>Utilizing the power of React.js, we develop modern, responsive web applications that offer a seamless user experience. Our expertise in React.js ensures that your application is scalable, efficient, and easy to maintain.</p>
+                </div>
+            </div>
+            
+            <div class="service" id="service3">
+                <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/web.jpg" alt="Service 3">
+                <div class="service-info">
+                    <h3>Developing ML Models and Backend Services</h3>
+                    <p>Our team specializes in developing machine learning models and backend services to enhance the functionality and intelligence of your applications. We leverage cutting-edge technologies to deliver scalable and efficient solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="companies" class="section"> <!-- Added Companies section -->
+        <div class="content">
+            <div class="company-info">
+                <h2>Employers </h2>
+                <!-- Company 1 -->
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Software Engineer</h3>
+                        <p>NICE · Full-time</p>
+                        <p>Mar 2024 - Present · 1 mo</p>
+                        <p>Front-End Development, JavaScript and +1 skill</p>
+                        <p>Pune</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/nice.jpg" alt="NICE Logo">
+                    </div>
+                </div>
+                <!-- Company 2 -->
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Software Engineer</h3>
+                        <p>LTIMindtree · Full-time</p>
+                        <p>Oct 2022 - Feb 2024 · 1 yr 5 mos</p>
+                        <p>Pune</p>
+                        <p>GitHub, Linux and +10 skills</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/lti.jpg" alt="LTIMindtree Logo">
+                    </div>
+                </div>
+                <!-- Company 3 -->
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Full-stack Developer ( Contractor)</h3>
+                        <p>Birlasoft · Full-time</p>
+                        <p>Dec 2021 - Oct 2022 · 11 mos</p>
+                        <p>Pune, Maharashtra, India</p>
+                        <p>GitHub, Linux and +13 skills</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/birlasoft.jpg" alt="Birlasoft Logo">
+                    </div>
+                </div>
+                <!-- Company 4 -->
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Full Stack Developer (contractor)</h3>
+                        <p>Synergy Homeopathic · Freelance</p>
+                        <p>May 2021 - Dec 2021 · 8 mos</p>
+                        <p>Pune, Maharashtra, India</p>
+                        <p>GitHub, Linux and +10 skills</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/synergy.jpg" alt="Synergy Homeopathic Logo">
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Full-stack Developer (Intern)</h3>
+                        <p>Mobigic Technologies Private Limited </p>
+                        <p>Feb 2021 - Dec 2021 · 11 mos</p>
+                        <p>Pune, Maharashtra, India</p>
+                        <p>GitHub, Linux and +10 skills</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/mobigic.jpg" alt="Synergy Homeopathic Logo">
+                    </div>
+                </div>
+                <div class="company">
+                    <div class="company-details">
+                        <h3>Full-stack Developer (Intern)</h3>
+                        <p>Chrysalis Software & Systems Pvt. Ltd </p>
+                        <p>Feb 13 - Dec 2020 · 11 mos</p>
+                        <p>Pune, Maharashtra, India</p>
+                        <p>GitHub, Linux and +10 skills</p>
+                    </div>
+                    <div class="company-logo">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/chrysalias.jpg" alt="Synergy Homeopathic Logo">
+                    </div>
+                </div>
+                <!-- Repeat for other companies -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Technologies Section -->
+<section id="technologies" class="section">
+    <center>  <h2 style="margin-bottom: 50px;">Technologies</h2></center>
+    <div class="content">
+      
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/Reactjs.jpg" alt="React.js Logo">
+            <div class="technology-info">
+                <h3>React.js</h3>
+                <p>A JavaScript library for building user interfaces, commonly used for single-page applications.</p>
+            </div>
+        </div>
+        <!-- Node.js -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/nodejs.png" alt="Node.js Logo">
+            <div class="technology-info">
+                <h3>Node.js</h3>
+                <p>A JavaScript runtime environment that allows running JavaScript code outside a web browser.</p>
+            </div>
+        </div>
+        <!-- Git -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/git.png" alt="Git Logo">
+            <div class="technology-info">
+                <h3>Git</h3>
+                <p>A distributed version control system for tracking changes in source code during software development.</p>
+            </div>
+        </div>
+        <!-- Java -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/java.png" alt="Java Logo">
+            <div class="technology-info">
+                <h3>Java</h3>
+                <p>A high-level, class-based, object-oriented programming language used for developing various applications.</p>
+            </div>
+        </div>
+        <!-- Spring Boot -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/springboot.png" alt="Spring Boot Logo">
+            <div class="technology-info">
+                <h3>Spring Boot</h3>
+                <p>An open-source Java-based framework used for creating standalone, production-grade Spring-based applications.</p>
+            </div>
+        </div>
+        <!-- Flutter -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/flutter.png" alt="Flutter Logo">
+            <div class="technology-info">
+                <h3>Flutter</h3>
+                <p>An open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
+            </div>
+        </div>
+        <!-- AWS -->
+        <div class="technology">
+            <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/Aws.png" alt="AWS Logo">
+            <div class="technology-info">
+                <h3>AWS</h3>
+                <p>Amazon Web Services, a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="section">
+        <div class="content">
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:asarade162@gmail.com">asarade162@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="https://github.com/optimistic-coder?tab=repositories" target="_blank">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/github.png" alt="GitHub">
+                    </a>
+                    <a href="https://in.linkedin.com/in/akash-sarade-58887a192" target="_blank">
+                        <img src="https://raw.githubusercontent.com/optimistic-coder/optimistic-coder..github.io/main/linkedIn.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://twitter.com/Akashsarade3" target="_blank">
+                        <img src="./imges/twitter.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
